@@ -13,6 +13,16 @@ jobs:
        # with:
        #   submodules: true
 
+      - name: Deploy to GitHub
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.personal_token }}
+          external_repository: eallion/favorite
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./
+          allow_empty_commit: true
+          commit_message: ${{ GitHub.event.head_commit.message }}
+
       # 部署到阿里云 OSS
       - name: Deploy to OSS
         uses: saltbo/uptoc@master
