@@ -1,6 +1,13 @@
 # Change Log 
 > *本站源码*：[https://github.com/eallion/favorite](https://github.com/eallion/favorite)
 
+### Ver 5.2
+>Update: 2020.09.14 <>
+
+- 内容越来越多，以前的用不上了又不好删除，所以添加了分类
+- 优化
+- 修复 Bugs
+
 ### Ver 5.1
 >Update: 2020.05.08
 
