@@ -2,7 +2,7 @@
 > *本站源码*：[https://github.com/eallion/favorite](https://github.com/eallion/favorite)
 
 ### Ver 5.2
->Update: 2020.09.14 <>
+>Update: 2020.09.14 [db46dde85f3aedb577350d3536760a3ef460c797](https://github.com/eallion/favorite/tree/db46dde85f3aedb577350d3536760a3ef460c797)
 
 - 内容越来越多，以前的用不上了又不好删除，所以添加了分类
 - 优化
