@@ -363,25 +363,63 @@ textarea {
     white-space:nowrap;
     font-size: 1.3em;
 }
+.widget {
+    width: 99.5%;
+	display: inline-block;
+}
+
+.widget::after {
+	display: inline-block;
+	content:'';
+	clear:both;
+}
 .time {
-    width: 98%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-align: center;
+    float: left;
+	width:85.5%;
+	padding:15px 15px;
+	background:#f2f2f2;
+	color:rgba(49,70,89,1);
+	white-space:nowrap;
+    overflow:hidden;
+    text-align:center;
 }
 .time a {
-    margin-left: 10px;
-    font-size:15px;
+	font-size:14px;
 }
 .time img {
-    height: 14px;
-    margin-right: 2px;
+    margin:0 2px;
 }
 .time span {
+	font-family:Montserrat,'Arial Black','Arial-BoldMT','Arial Bold',Arial,Helvetica,sans-serif;
     font-size:14px;
+}
+.time ul {
+	padding-left:0;
+    display: inline-block;
+}
+.time ul::after {
+	display: inline-block;
+	content:'';
+	clear:both;
+}
+.li-time {
+	float:left;
+	width:9%;
+	box-sizing:border-box;
+	list-style-type:none;
+	min-width:118px;
+}
+.heweather {
+    float: right;
+    width: 14%;
 }
 /*-----------------------------简洁版样式定义- 结束---------------------------------------------------*/
 /*-----------------------------手机自适应---------------------------------------------------*/
+@media screen and (max-device-width: 1366px) {
+.time a {
+    display: none;
+}
+}
 @media screen and (max-device-width: 768px) {
 .jj-list-con li {
     width: 33.3%; /*div等分成3部分*/
