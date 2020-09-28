@@ -1,6 +1,13 @@
 # Change Log 
 > *本站源码*：[https://github.com/eallion/favorite](https://github.com/eallion/favorite)
 
+### Ver 5.2.1
+>Update: 2020.09.28 [e0132b132e011a1422c621e8bb750440858c0c0e](https://github.com/eallion/favorite/tree/e0132b132e011a1422c621e8bb750440858c0c0e)
+
+- 添加世界各地时间显示
+- 优化
+- 修复 Bugs
+
 ### Ver 5.2
 >Update: 2020.09.14 [db46dde85f3aedb577350d3536760a3ef460c797](https://github.com/eallion/favorite/tree/db46dde85f3aedb577350d3536760a3ef460c797)
 
