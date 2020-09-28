@@ -375,7 +375,7 @@ textarea {
 }
 .time {
     float: left;
-	width:85.5%;
+	width:86%;
 	padding:15px 15px;
 	background:#f2f2f2;
 	color:rgba(49,70,89,1);
@@ -411,52 +411,65 @@ textarea {
 }
 .heweather {
     float: right;
-    width: 14%;
+    width: 13.9%;
+    min-width: 195xp;
 }
 /*-----------------------------简洁版样式定义- 结束---------------------------------------------------*/
 /*-----------------------------手机自适应---------------------------------------------------*/
-@media screen and (max-device-width: 1366px) {
-.time a {
-    display: none;
+@media screen and (max-device-width: 1800px) {
+    .time {
+        width: 80%;
+    }
+    .hidetimezone {
+        display: none;
+    }
+    .heweather {
+        width: 19.9%;
+        min-width: 195xp;
+    }
 }
+@media screen and (max-device-width: 1279px) {
+    .widget {
+        display: none;
+    }
 }
 @media screen and (max-device-width: 768px) {
-.jj-list-con li {
-    width: 33.3%; /*div等分成3部分*/
-}
-.jj-list-con li a{
-    padding-left: 0.7em;
-}
-.search-left {
-    height: 39px;
-}
-.search-methods {
-    top: 39px;
-}
-.search-submit {
-    min-width: 39px;
-    height: 39px;
-}
-.input-wrap .search-input {
-    height: 37px;
-}
-.show_header, .result-item{
-    display:none;
-}
-.search-section {
-    padding-bottom: 10px;
-    width: 78%;
-}
-.eallion-nav{
-    display: inline-block;
-}
-.jinrishici-desc{
-    display: none;
-}
-.jj-list-tit span{
-    display: none;
-}
-.time {
-    display: none;
-}
+    .jj-list-con li {
+        width: 33.3%; /*div等分成3部分*/
+    }
+    .jj-list-con li a{
+        padding-left: 0.7em;
+    }
+    .search-left {
+        height: 39px;
+    }
+    .search-methods {
+        top: 39px;
+    }
+    .search-submit {
+        min-width: 39px;
+        height: 39px;
+    }
+    .input-wrap .search-input {
+        height: 37px;
+    }
+    .show_header, .result-item{
+        display:none;
+    }
+    .search-section {
+        padding-bottom: 10px;
+        width: 78%;
+    }
+    .eallion-nav{
+        display: inline-block;
+    }
+    .jinrishici-desc{
+        display: none;
+    }
+    .jj-list-tit span{
+        display: none;
+    }
+    .time {
+        display: none;
+    }
 }
