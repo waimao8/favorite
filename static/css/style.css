@@ -375,6 +375,7 @@ textarea {
 }
 .time {
     float: left;
+    height: 50px;
 	width:86%;
 	padding:15px 15px;
 	background:#f2f2f2;
