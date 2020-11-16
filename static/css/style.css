@@ -428,6 +428,13 @@ textarea {
         width: 19.9%;
         min-width: 195xp;
     }
+    .header li {
+        margin: 0px 14px;
+    }
+    .header li a {
+        font-size: 14px;
+        font-weight: normal;
+    }
 }
 @media screen and (max-device-width: 1279px) {
     .widget {
