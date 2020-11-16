@@ -415,6 +415,12 @@ textarea {
     width: 13.9%;
     min-width: 195xp;
 }
+.dtk-logo {
+    display: none;
+}
+.layout_right a {
+    background: #1890FF no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAaCAYAAACgoey0AAABBUlEQVRIie3UsWrCYBTF8XQRcfYNnLuK7+BDtXN1cHWtY6FLBcG5dCgdBF9ApTgUQekL/Lp8gfDVWJtqHJoLh5Cc7+QPN7k3SaLCEFt8nkhbDGPOt7oY+P8U5idsb57mMbRTAjRVJwselAgepNAaliWCl6gl6JYITdVNMLoAeJRg9UNb8ryPoCLZVYLpgQO3B7zpX7LpKO32mI+4CtfY24Vc4Wz6Z7cxxjtmuEE9ePVwPwv+GO3MKBbO5m2yFia4QyPymrgPakZeI2QmaP1mdfbDt9tk2rPAA3p4wjrjrcOzXjizyHib8K7+MeCzjFAFrsAVuFTw8xnAr8eAr/FyQuibPfv5CwEI0zr+cSfkAAAAAElFTkSuQmCC) center 10px;
+}
 /*-----------------------------简洁版样式定义- 结束---------------------------------------------------*/
 /*-----------------------------手机自适应---------------------------------------------------*/
 @media screen and (max-device-width: 1800px) {
