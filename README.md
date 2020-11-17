@@ -15,7 +15,6 @@
 
 ### Live Demo
 - [https://s.eallion.com](https://s.eallion.com)
-- [https://favorite.wiki](https://favorite.wiki)
 
 ### LICENSE
 ```
