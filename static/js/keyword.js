@@ -257,7 +257,7 @@ $(function(){
         page_heig = $(document).scrollTop();            /* 再次获取滚动条的高度，用于下次触发事件后的对比 */
      });
 });
-/*back to top */
+/*back to top 
 $('.to-top').toTop({
   //options with default values
   autohide: true,
@@ -266,5 +266,5 @@ $('.to-top').toTop({
   position: true,
   right: 13,
   bottom: 31
-});
+});*/
 });
