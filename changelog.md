@@ -1,6 +1,11 @@
 # Change Log 
 > *本站源码*：[https://github.com/eallion/favorite](https://github.com/eallion/favorite)
 
+### Ver 5.2.2
+> Update: 2020.11.02 [9a5ac4aff7f50e662edb3459014e37ec350d35d7](https://github.com/eallion/favorite/tree/9a5ac4aff7f50e662edb3459014e37ec350d35d7)
+
+- 去掉世界时间
+
 ### Ver 5.2.1
 >Update: 2020.09.28 [e0132b132e011a1422c621e8bb750440858c0c0e](https://github.com/eallion/favorite/tree/e0132b132e011a1422c621e8bb750440858c0c0e)
 
