@@ -59,6 +59,13 @@ textarea {
 }
 .footer p{
     margin: 16px 0;
+    height: 40px;
+    font-size: 16px;
+}
+.footer p img{
+    display:inline-block;
+    height: 35px;
+    vertical-align: -12px;
 }
 /* logo start  */
 .logo-box {
