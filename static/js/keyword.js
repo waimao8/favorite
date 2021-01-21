@@ -241,21 +241,15 @@ $(function () {
       window.open(baseUrl.url + keyword);
     }
   }
-$(function(){
-    var page_heig = $(document).scrollTop();            /* 初始化。用于第一次获取滚动条的高度 */
-    var navigation = $('.navigation').outerHeight();    /* 获取该元素的高度 */
-    $(window).scroll(function() {                       /* 滚动条触发事件 */
-        var real_heig = $(document).scrollTop();        /* 事件触发后获取滚动条高度 */
-        if (real_heig > navigation){                    /* 触发后的高度 与 元素的高度对比 */
-            $('.navigation').addClass('show_header');          /* True 添加隐藏属性 */
-        }else {
-            $('.navigation').removeClass('show_header');       /* False 删除隐藏属性 */
-        }
-        if (real_heig < page_heig){                     /* 触发后的高度 与 上次触发后的高度 */
-            $('.navigation').removeClass('show_header');       /* True 删除隐藏属性 */
-        }
-        page_heig = $(document).scrollTop();            /* 再次获取滚动条的高度，用于下次触发事件后的对比 */
-     });
+ 
+$(window).scroll(function() {
+    clearTimeout($.data(this, 'scrollTimer'));
+        $('header').show();
+
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        // do something
+        $('header').hide();
+    }, 3000));
 });
 /*back to top 
 $('.to-top').toTop({
