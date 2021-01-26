@@ -16,9 +16,7 @@
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans&display=swap" rel="stylesheet">
-    <base target="_blank" />
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -103,86 +101,40 @@
     </div>
     <!-- 搜索框 end -->
     <!-- 导航地址 start -->
-    <div class="nav-content">
-      <!--
-      <div class="widget">
-        <div class="heweather">
-          <div id="he-plugin-simple"></div>
-            <script>
-              WIDGET = {
-                CONFIG: {
-                  "modules": "01234",
-                  "background": 4,
-                  "backgroundColor": "F2F2F2",
-                  "tmpColor": "314659",
-                  "tmpSize": 16,
-                  "cityColor": "314F59",
-                  "citySize": 16,
-                  "aqiSize": 16,
-                  "weatherIconSize": 24,
-                  "alertIconSize": 18,
-                  "padding": "13px 12px 13px 12px",
-                  "shadow": "1",
-                  "language": "auto",
-                  "fixed": "false",
-                  "vertical": "middle",
-                  "horizontal": "center",
-                  "key": "0b8408d30b5944ecbc660ec1af70f5c0"
-                }
-              }
-            </script>
-            <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-            <style>
-              .s-sticker-tmp,.wv-n-h-now-txt-t,.wv-f-a {font-family:Montserrat,'Arial Black','Arial-BoldMT','Arial Bold',Arial,Helvetica,sans-serif;}
-              /* .wv-lt-location>a[data-v-351d2054] {display: none;} */
-              #weather-view-he[data-v-db6ccf64] {margin-top: -5px;}
-            </style>
-          </div>
-        <div class="time">
-          <ul>
-            <span class="hidetimezone1">
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/cn.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="东八区 中国 北京时间" alt="东八区 中国 北京时间">CHN:</a><span id="China_z43d"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/europeanunion.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="协调世界时 世界标准时间" alt="协调世界时 世界标准时间">UTC:</a><span id="UTC_za00"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/us.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="太平洋时间 洛杉矶等" alt="太平洋时间 洛杉矶等">PST:</a><span id="_zU-480"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/us.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="美国山地时间 凤凰城等" alt="美国山地时间 凤凰城等">MST:</a><span id="MST_z16c"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/us.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="美国中部时间 芝加哥等" alt="美国中部时间 芝加哥等">CST:</a><span id="CST_z118"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/us.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="美国东部时间 纽约等" alt="美国东部时间 纽约">EST:</a><span id="EST_z113"></span></li>
-            </span>
-            <span class="hidetimezone">
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/gb.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="西欧时间 伦敦等" alt="西欧时间 伦敦">WET:</a><span id="WET_z714"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/de.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="中欧时间 柏林等" alt="中欧时间 柏林">CET:</a><span id="CET_z706"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/ru.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="俄罗斯 莫斯科" alt="俄罗斯 莫斯科">MOS:</a><span id="Moscow_z71d"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/jp.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="东九区 日本 东京" alt="东九区 日本 东京">TYO:</a><span id="Tokyo_z444"></span></li>
-            <li class="li-time"><img src="https://cdn.jsdelivr.net/gh/eallion/favorite@master/static/img/flags/gif/kr.gif"><a href="https://time.is/" id="time_is_link" rel="nofollow" title="东九区 韩国 首尔" alt="东九区 韩国 首尔">KOR:</a><span id="South_Korea_z43c"></span></li>
-            </span>
-          </ul>
-          <script src="//widget.time.is/t.js"></script>
+        <div class="jj-list">
           <script>
-            time_is_widget.init({
-              China_z43d:{},
-              UTC_za00:{},
-              EST_z113:{},
-              CST_z118:{},
-              MST_z16c:{},
-              "_zU-480":{id:"PST_zU-480"},
-              CET_z706:{},
-              WET_z714:{},
-              Tokyo_z444:{},
-              South_Korea_z43c:{},
-              Moscow_z71d:{},
-            });
+            WIDGET = {
+              CONFIG: {
+                "modules": "01234",
+                "background": 4,
+                "backgroundColor": "F2F2F2",
+                "tmpColor": "rgba(49, 70, 89, 1);",
+                "tmpSize": 16,
+                "cityColor": "rgba(49, 70, 89, 1);",
+                "citySize": 16,
+                "aqiSize": 16,
+                "weatherIconSize": 24,
+                "alertIconSize": 18,
+                "padding": "10px 10px 10px 10px",
+                "shadow": "1",
+                "language": "auto",
+                "borderRadius": "2",
+                "fixed": "false",
+                "vertical": "middle",
+                "horizontal": "center",
+                "key": "9d1d5e298b5e42318a94ee27f68b2bc5"
+              }
+            }
           </script>
-        </div>
-      </div>
-      -->
-        <div class="jj-list jj-lists">
-          <ul class="jj-list-con">
+          <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
+          <ul class="jj-list-con hweather">
             <li><a href="https://eallion.com/"><img src="https://www.google.cn/s2/favicons?domain_url=eallion.com/">博客</a></li>
             <li><a href="https://gmail.com"><img src="https://www.google.cn/s2/favicons?domain_url=www.google.com/intl/zh-CN/gmail/about/">Gmail</a></li>
             <li><a href="https://github.com/eallion"><img src="https://github.githubassets.com/favicons/favicon.png">GitHub</a></li>
             <li><a href="https://twitter.com/eallion"><img src="https://www.google.cn/s2/favicons?domain_url=twitter.com">Twitter</a></li>
             <li><a href="https://www.aliyun.com"><img src="https://www.google.cn/s2/favicons?domain_url=www.aliyun.com">阿里云</a></li>
-            <li><a href="https://www.dropbox.com/"><img src="https://www.google.cn/s2/favicons?domain_url=www.dropbox.com">Dropbox</a></li>
+            <!-- <li><a href="https://www.dropbox.com/"><img src="https://www.google.cn/s2/favicons?domain_url=www.dropbox.com">Dropbox</a></li> -->
+            <li class="qweather"><div id="he-plugin-simple"></div></li>
           </ul>
         </div>
         <div id="sns" class="jj-list">

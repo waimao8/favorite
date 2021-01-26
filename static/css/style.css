@@ -251,9 +251,9 @@ textarea {
 .jj-list {
     width: 100%;
     float: left;
-    padding-top: 60px;
     margin-top: -30px;
     /*padding-right: 16px;*/
+    padding: 30px 0;
 }
 .jj-lists {
     padding-bottom: 30px;
@@ -427,10 +427,11 @@ header:focus {
 	list-style-type:none;
 	min-width:118px;
 }
-.heweather {
-    float: right;
-    width: 13.9%;
-    min-width: 195xp;
+.qweather,.hweather {
+    overflow: visible !important;
+}
+.qweather a {
+    background: none !important;
 }
 /*-----------------------------简洁版样式定义- 结束---------------------------------------------------*/
 /*-----------------------------手机自适应---------------------------------------------------*/
@@ -440,10 +441,6 @@ header:focus {
     }
     .hidetimezone {
         display: none;
-    }
-    .heweather {
-        width: 19.9%;
-        min-width: 195xp;
     }
     .header li {
         margin: 0px 14px;
