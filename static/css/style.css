@@ -437,7 +437,7 @@ header:focus {
     color:rgba(49, 70, 89, 1) !important;
 }
 .qweather,.hweather {
-    overflow: visible !important;
+    overflow: hidden !important;
 }
 .qweather a {
     background: none !important;
@@ -474,6 +474,9 @@ header:focus {
     .header li a {
         font-size: 14px;
     }
+    .inner-center {
+        width: 95%;
+    }
 }
 @media screen and (max-device-width: 1279px) {
     header {
@@ -488,7 +491,11 @@ header:focus {
         width: 33.3%; /*div等分成3部分*/
     }
     .jj-list-con li a{
-        padding-left: 0.7em;
+        padding: 0 0.7em;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .search-left {
         height: 39px;
@@ -521,5 +528,11 @@ header:focus {
     }
     .time {
         display: none;
+    }
+    .s-sticker {
+        padding-left:4px !important;
+    }
+    .s-sticker-cond {
+        padding-left: 0 !important;
     }
 }
