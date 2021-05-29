@@ -475,7 +475,7 @@ header:focus {
         font-size: 14px;
     }
     .inner-center {
-        width: 95%;
+        width: 85%;
     }
 }
 @media screen and (max-device-width: 1279px) {
@@ -516,6 +516,7 @@ header:focus {
     .search-section {
         padding-bottom: 10px;
         width: 78%;
+        margin-bottom: 25px;
     }
     .eallion-nav{
         display: inline-block;
