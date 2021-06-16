@@ -286,6 +286,40 @@ textarea {
     text-overflow:ellipsis;
     white-space: nowrap;
 }
+
+.jj-list-con li:hover {
+    animation: swing 2s linear 0s 1 forwards
+}
+@keyframes swing {
+    0%, 100% {
+        transform: perspective(200px) rotateX(0);
+    }
+    20% {
+        transform: perspective(200px) rotateX(-45deg);
+    }
+    40% {
+        transform: perspective(200px) rotateX(45deg);
+    }
+    50% {
+        transform: perspective(200px) rotateX(-25deg);
+    }
+    60% {
+        transform: perspective(200px) rotateX(25deg);
+    }
+    70% {
+        transform: perspective(200px) rotateX(-5deg);
+    }
+    80% {
+        transform: perspective(200px) rotateX(5deg);
+    }
+    90% {
+        transform: perspective(200px) rotateX(-3deg);
+    }
+    95% {
+        transform: perspective(200px) rotateX(3deg);
+    }
+}
+
 .jj-list-con li a{
     display: block;
     /*background: rgba(230, 247, 255, 0.96);*/
