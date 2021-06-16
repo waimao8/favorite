@@ -465,6 +465,7 @@ header:focus {
 	font-size: 1rem;
     line-height: 1.5em;
     margin: 15px 0;
+    padding-bottom: 20px;
 }
 
 .copyright--user {
