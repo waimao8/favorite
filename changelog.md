@@ -1,6 +1,21 @@
 # Change Log 
 > *本站源码*：[https://github.com/eallion/favorite](https://github.com/eallion/favorite)
 
+### Ver 5.3.1
+> Update: 2021.06.16 [a1f30aa1ffdaa913b9425e2202fa777db9c64157](https://github.com/eallion/favorite/commit/a1f30aa1ffdaa913b9425e2202fa777db9c64157)
+
+- feat: 增加部分动效
+
+### Ver 5.3
+> Update: 2021.06.16 [f501264b2c58c83a3f177184fac43d8a5893a318](https://github.com/eallion/favorite/commit/f501264b2c58c83a3f177184fac43d8a5893a318)
+
+- feat: 增加 PWA 支持
+
+### Ver 5.2.3
+> Update: 2021.06.11 [06f2eed05b8a5b5dd647a9ecbbb867c21ee0241f](https://github.com/eallion/favorite/commit/06f2eed05b8a5b5dd647a9ecbbb867c21ee0241f)
+
+- 更新 footer，使用 Badge 显示信息
+
 ### Ver 5.2.2
 > Update: 2020.11.02 [9a5ac4aff7f50e662edb3459014e37ec350d35d7](https://github.com/eallion/favorite/tree/9a5ac4aff7f50e662edb3459014e37ec350d35d7)
 
