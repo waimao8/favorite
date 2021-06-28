@@ -44,7 +44,7 @@ textarea {
     min-height: 100%;
 }
 .content-inside{
-   padding-bottom: 76px;
+    padding-bottom: 76px;
 }
 .footer {
     height: 60px;
@@ -286,40 +286,6 @@ textarea {
     text-overflow:ellipsis;
     white-space: nowrap;
 }
-
-.jj-list-con li:hover {
-    animation: swing 2s linear 0s 1 forwards
-}
-@keyframes swing {
-    0%, 100% {
-        transform: perspective(200px) rotateX(0);
-    }
-    20% {
-        transform: perspective(200px) rotateX(-45deg);
-    }
-    40% {
-        transform: perspective(200px) rotateX(45deg);
-    }
-    50% {
-        transform: perspective(200px) rotateX(-25deg);
-    }
-    60% {
-        transform: perspective(200px) rotateX(25deg);
-    }
-    70% {
-        transform: perspective(200px) rotateX(-5deg);
-    }
-    80% {
-        transform: perspective(200px) rotateX(5deg);
-    }
-    90% {
-        transform: perspective(200px) rotateX(-3deg);
-    }
-    95% {
-        transform: perspective(200px) rotateX(3deg);
-    }
-}
-
 .jj-list-con li a{
     display: block;
     /*background: rgba(230, 247, 255, 0.96);*/
@@ -418,7 +384,6 @@ header:focus {
     width: 99.5%;
 	display: inline-block;
 }
-
 .widget::after {
 	display: inline-block;
 	content:'';
@@ -501,21 +466,17 @@ header:focus {
     margin: 15px 0;
     padding-bottom: 20px;
 }
-
 .copyright--user {
 	margin: auto;
 	text-align: center
 }
-
 .copyright>:first-child:not(:only-child) {
 	border-right: 1px solid;
 	padding-right: 10px;
 	margin-right: 10px
 }
-
 /*-----------------------------简洁版样式定义- 结束---------------------------------------------------*/
 /*-----------------------------手机自适应---------------------------------------------------*/
-
 @media screen and (max-width:1800px) {
 	.copyright>:first-child:not(:only-child) {
 		border: none;
@@ -523,7 +484,6 @@ header:focus {
 		margin: 0
 	}
 }
-
 @media screen and (max-width:1800px) {
 	.copyright {
 		flex-direction: column;
